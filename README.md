@@ -108,20 +108,11 @@ Both commands should return the version numbers, confirming that Docker and Dock
 - For more information about Docker, visit the [official documentation](https://docs.docker.com/).
 - For more information about Docker Compose, visit the [official documentation](https://docs.docker.com/compose/).
 
-## Troubleshooting
-
-- **Permission Issues**: If you encounter permission issues while using Docker, try adding your user to the `docker` group:
-    ```bash
-    sudo usermod -aG docker $USER
-    ```
-    Then, log out and log back in to apply the changes.
 
 - **Firewall Issues**: Ensure that your firewall settings do not block Docker from communicating with the internet or local networks.
 ## Run docker compose
 Run the following command to build and start your containers in detached mode:
-    ```bash
+    ```
     docker-compose up --build -d
     ```
 
-    - `--build`: Forces Docker Compose to rebuild images before starting the containers.
-    - `-d`: Runs the containers in detached mode (in the background).
