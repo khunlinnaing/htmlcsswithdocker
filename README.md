@@ -1,5 +1,6 @@
 # htmlcsswithdocker
 Htmlcss run with docker compose
+![First Lab Image](https://github.com/khunlinnaing/htmlcsswithdocker/blob/main/first_lab.png?raw=true)
 # Install Docker and Docker Compose
 
 This guide provides instructions for installing Docker and Docker Compose on your system.
@@ -124,5 +125,3 @@ Run the following command to build and start your containers in detached mode:
 
     - `--build`: Forces Docker Compose to rebuild images before starting the containers.
     - `-d`: Runs the containers in detached mode (in the background).
-
-![Docker Logo](https://upload.wikimedia.org/wikipedia/commons/3/39/Docker_logo.png)
